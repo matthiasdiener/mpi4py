@@ -142,8 +142,6 @@ elif name == 'Open MPI':
         BaseTestPackExternal.skipdtype += 'gG'
 elif name == 'Intel MPI':
     BaseTestPackExternal.skipdtype += 'ldgFDG'
-    if os.name == 'nt':
-        BaseTestPackExternal.skipdtype += 'q'
 elif name == 'Microsoft MPI':
     BaseTestPackExternal.skipdtype += 'gFDG'
 elif name == 'MVAPICH2':
